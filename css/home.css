@@ -1,0 +1,345 @@
+/* ========== Cores */
+/* ========== Font */
+/* ========== Screen */
+/* ======== Outros */
+/* ======== Background Color Opacity */
+/* ======== Columns */
+/* ========== Cores */
+/* ========== Font */
+/* ========== Screen */
+/* ======== Outros */
+/* ======== Background Color Opacity */
+/* ======== Columns */
+section.sec-ortomed .aortomed {
+  text-align: center; }
+  section.sec-ortomed .aortomed h1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 30px;
+    color: #3e4095;
+    clear: both;
+    display: inline-block; }
+  section.sec-ortomed .aortomed p {
+    text-align: justify;
+    width: 70%;
+    margin-top: 20px;
+    clear: both;
+    font-size: 16px;
+    display: inline-block; }
+    section.sec-ortomed .aortomed p strong a {
+      color: #ed3237; }
+section.sec-ortomed .barra {
+  background-color: #ed3237;
+  background-image: -webkit-gradient(linear, 90deg, from(#3e4095), to(#ed3237));
+  background-image: -webkit-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -moz-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -ms-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -o-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: linear-gradient(90deg, #3e4095, #ed3237);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
+  width: 10%;
+  height: 3px;
+  border: none;
+  margin: auto; }
+section.sec-ortomed .especialidades {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  margin: 10px 0;
+  text-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: 3;
+  -moz-flex-direction: 3;
+  -ms-flex-direction: 3;
+  flex-direction: 3; }
+  section.sec-ortomed .especialidades h1 {
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+    z-index: 1;
+    top: 90px;
+    font-weight: 700; }
+  section.sec-ortomed .especialidades .img-psicologia h1 {
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    z-index: 1;
+    top: 90px;
+    font-weight: 700; }
+
+.second-main {
+  background-image: url("../images/fundo-rpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  min-height: 650px;
+  margin-top: 60px; }
+
+section.sec-rpg .rpg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center; }
+  section.sec-rpg .rpg h1 {
+    text-transform: uppercase;
+    position: relative;
+    text-align: left;
+    font-size: 50px;
+    color: #3e4095;
+    z-index: 1;
+    margin: auto 0; }
+  section.sec-rpg .rpg p {
+    text-transform: uppercase;
+    position: relative;
+    text-align: left;
+    font-size: 15px;
+    color: #ed3237;
+    z-index: 1;
+    top: 40px;
+    right: 94px; }
+section.sec-rpg .rpg-image {
+  position: absolute;
+  margin-top: 100px;
+  clear: both; }
+section.sec-rpg .texto-rpg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+  -ms-flex-align: right;
+  -webkit-align-items: right;
+  -moz-align-items: right;
+  align-items: right;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
+  -webkit-justify-content: right;
+  -moz-justify-content: right;
+  justify-content: right;
+  margin-left: 60%;
+  margin-top: 200px; }
+  section.sec-rpg .texto-rpg p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    color: #3e4095;
+    z-index: 1; }
+section.sec-rpg .saibamais {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+  -ms-flex-align: right;
+  -webkit-align-items: right;
+  -moz-align-items: right;
+  align-items: right;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
+  -webkit-justify-content: right;
+  -moz-justify-content: right;
+  justify-content: right;
+  margin-left: 70%;
+  margin-top: 50px; }
+  section.sec-rpg .saibamais a {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    border: 2px solid #3e4095;
+    padding: 2px 10px;
+    color: #3e4095;
+    z-index: 1; }
+
+section.sec-convenios .convenios-itens {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  justify-content: space-around; }
+  section.sec-convenios .convenios-itens [class^="icone-"] {
+    margin-top: 40px;
+    top: 40px;
+    text-align: center; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-planserv {
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+      -moz-order: 1;
+      -ms-flex-order: 1;
+      order: 1; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-medial {
+      -webkit-box-ordinal-group: 3;
+      -webkit-order: 2;
+      -moz-order: 2;
+      -ms-flex-order: 2;
+      order: 2; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-saude-caixa {
+      -webkit-box-ordinal-group: 4;
+      -webkit-order: 3;
+      -moz-order: 3;
+      -ms-flex-order: 3;
+      order: 3; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-amil {
+      -webkit-box-ordinal-group: 5;
+      -webkit-order: 4;
+      -moz-order: 4;
+      -ms-flex-order: 4;
+      order: 4; }
+  section.sec-convenios .convenios-itens h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    color: #3e4095;
+    margin: auto 0;
+    margin-top: -85px;
+    margin-bottom: 30px; }
+
+.fourth-main {
+  background-image: url("../images/vca.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  margin-top: 40px; }
+
+section.sec-contato .funcionamento {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 32px;
+  font-size: 2rem;
+  color: #FFF;
+  width: 50%;
+  position: absolute;
+  clear: both; }
+section.sec-contato .horario {
+  margin-top: 30px; }
+  section.sec-contato .horario ul li {
+    text-align: center;
+    font-size: 32px;
+    font-size: 2rem; }
+section.sec-contato .endereco {
+  margin-top: 20px; }
+  section.sec-contato .endereco p {
+    text-align: center;
+    padding: 0; }
+section.sec-contato .contato-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+  -ms-flex-align: right;
+  -webkit-align-items: right;
+  -moz-align-items: right;
+  align-items: right;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  margin-left: 50%;
+  margin-top: 30px;
+  width: 450px;
+  height: 530px;
+  background-color: #FFF; }
+  section.sec-contato .contato-box h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 105%;
+    font-weight: 400;
+    margin-right: -100px;
+    color: #3e4095; }
+  section.sec-contato .contato-box form {
+    width: 125%;
+    margin-right: 272px;
+    margin-top: 40px; }
+  section.sec-contato .contato-box input {
+    margin-right: 10%;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    -webkit-align-items: left;
+    -moz-align-items: left;
+    align-items: left;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    -webkit-justify-content: left;
+    -moz-justify-content: left;
+    justify-content: left;
+    margin-top: 35px;
+    margin-right: 250px;
+    font-size: 28px;
+    font-weight: 300;
+    width: 350px;
+    border-bottom: 1px solid #ed3237;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    color: #3e4095;
+    background-color: transparent;
+    outline: none; }
+  section.sec-contato .contato-box .message {
+    border: 1px solid #ed3237;
+    padding: 0 0 80px 0; }
+  section.sec-contato .contato-box .bt-enviar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: right;
+    -ms-flex-align: right;
+    -webkit-align-items: right;
+    -moz-align-items: right;
+    align-items: right;
+    border: 1px solid #ed3237;
+    width: 90px;
+    text-align: right;
+    color: #7c7a7a; }

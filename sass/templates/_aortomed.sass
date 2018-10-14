@@ -1,0 +1,482 @@
+header
+	+clearfix
+	min-height: 650px
+	background:
+		image: url('../images/slide-inter.jpg')
+		position: top center
+		repeat: no-repeat
+		color: $white
+		attachment: fixed
+		size: cover
+
+	.top-bar
+		background-color: $white
+		position: fixed
+		z-index: 1000
+		height: 150px
+		width: 100%  
+
+	.boxshadow
+		position: relative
+		-moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5)
+		-webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5)
+		box-shadow: 1px 2px 4px rgba(0, 0, 0, .5)
+		background: $white
+
+
+	.social
+		float: left
+		margin: 50px 0 0
+		margin-left: 100px
+		li
+			display: inline-block
+			a
+				color: $blue
+				float: left
+				display: block
+				border: 1px solid $blue
+				padding: 4px
+				width: 25px
+				height: 25px
+				line-height: 12px
+				text-align: center
+				+border-radius(120px)
+
+	.telefone
+		float: right
+		margin: 50px 0 0
+		margin-right: 100px
+		clear: both
+		span
+			float: right
+			color: $blue
+			font-size: 14px
+
+	.clear
+		clear: both
+
+	.logo
+		text-align: center
+
+	.logo-align
+		clear: both
+		display: inline-block
+		margin: 10px 0 0
+		margin-left: 30px
+
+	nav
+		+breakpoint($tablet)
+			display: none
+		+breakpoint($celular)
+			display: none
+		ul
+			li
+				text-align: center
+				display: inline-block
+				margin: 20px 20px 0 0
+				a
+					color: $black
+					text-transform: uppercase	
+
+	.aortomed-nome
+		text-align: left
+		// margin: 200px 0 0
+		margin-top: 250px
+		margin-left: 100px
+		h1
+			font-weight: $bold
+			line-height: 1
+			text-transform: uppercase
+			// margin: 160px 0 0 !important
+			color: $blue
+
+
+	// .logo-ortomed-align
+	// 	clear: both
+	// 	display: inline-block
+	// 	margin: auto		
+	// 	margin-right: 130px		
+
+	// .logo-policlinica-nome
+	// 	clear: both
+	// 	display: inline-block
+	// 	margin-left: 250px
+	// 	margin-bottom: 10px
+	// 	//margin-top: 30px
+
+	.barra
+		+gradient(90deg, $blue, $red)
+		width: 20%
+		height: 3px
+		// margin: 200px 0 0
+		// margin-left: 100px
+		border: none
+
+section.sec-ortomed
+	.aortomed
+		text-align: center
+		p
+			text-align: justify
+			width: 70%
+			margin-top: 50px
+			clear: both
+			font-size: 20px
+			display: inline-block
+
+	.cnes
+		float: left
+		// margin: 50px 0 0
+		margin-top: 25px
+		margin-left: 100px
+		clear: both
+		span
+			float: left
+			color: $black
+			font-weight: $bold
+			font-size: 16px
+			position: absolute
+
+	.cnpj
+		float: right
+		// margin: 50px 0 0
+		margin-right: 100px
+		clear: both
+		span
+			float: right
+			font-weight: $bold
+			font-size: 16px
+
+	.clear
+		clear: both
+
+	.itc-vet
+		text-align: center
+		width: 50%
+		margin: auto
+
+	.itc-vet-align
+		clear: both
+		display: inline-block
+		margin: 10px 0 0
+		margin-right: 30px
+
+
+section.sec-dep
+	.dep-nome
+		text-align: left
+		margin-top: 50px
+		margin-left: 170px
+		h1
+			font-weight: $bold
+			line-height: 1
+			color: $blue
+
+	.barra
+		+gradient(90deg, $blue, $red)
+		width: 25%
+		height: 3px
+		border: none
+
+	.depoimentos
+		text-align: center
+		p
+			text-align: justify
+			width: 70%
+			margin-top: 50px
+			clear: both
+			font-size: 20px
+			display: inline-block
+
+section.sec-medias
+	+gradient(90deg, $blue, $red)
+	width: 100%
+	height: 500px
+
+	.clear
+		clear: both
+
+	.iframe-face
+		margin-top: 30px
+		span
+			margin-top: 30px
+			font-size: 22px
+			font-weight: $bold
+			text-transform: uppercase
+			color: $white			
+			margin-left: 118px
+		iframe
+			margin-top: 5px
+			margin-left: 118px
+
+	.iframe-insta
+		margin-top: -31px
+		float: right
+		margin-right: 120px
+		span
+			margin-top: 30px
+			font-size: 22px
+			font-weight: $bold
+			text-transform: uppercase
+			color: $white			
+			margin-left: 190px
+		blockquote
+			margin-top: 5px
+			margin-left: 190px
+
+
+
+// 	.barra
+// 		+gradient(90deg, $blue, $red)
+// 		width: 10%
+// 		height: 3px
+// 		border: none
+// 		margin: auto
+
+
+// 	.especialidades
+// 		+flexbox
+// 		+align-items(center)
+// 		+justify-content(center)
+// 		margin: 10px 0
+// 		text-align: center
+// 		+flex-direction(3)
+
+// 		h1
+// 			text-transform: uppercase
+// 			position: relative
+// 			text-align: center
+// 			font-size: 20px
+// 			color: $white
+// 			z-index: 1
+// 			top: 90px
+// 			font-weight: $bold
+
+// 		// verificar depois .barra-white
+// 			//+gradient(90deg, $blue, $red)
+// 			//color: $white
+// 			//width: 50%
+// 			//height: 3px
+// 			//border: none
+// 			//margin: auto
+
+
+// 		.img-psicologia
+
+
+// 			h1
+// 				text-transform: uppercase
+// 				position: relative
+// 				text-align: center
+// 				font-size: 20px
+// 				color: $black
+// 				z-index: 1
+// 				top: 90px
+// 				font-weight: $bold
+
+// 				// verificar depois .barra-black
+// 					//color: $black
+// 					//width: 50%
+// 					//height: 3px
+// 					//border: none
+// 					//position: relative
+// 					//text-align: center
+// 					//z-index: 1
+// 					//top: 50px
+
+
+// .second-main
+// 	background-image: url('../images/fundo-rpg.jpg')
+// 	background-repeat: no-repeat
+// 	background-size: cover
+// 	color: $white
+// 	min-height: 650px
+// 	margin-top: 60px
+
+// section.sec-rpg
+// 	.rpg
+// 		+flexbox
+// 		+align-items(center)
+// 		+justify-content(center)
+
+// 		h1
+// 			text-transform: uppercase
+// 			position: relative
+// 			text-align: left
+// 			font-size: 50px
+// 			color: $blue
+// 			z-index: 1
+// 			margin: auto 0
+// 		p
+// 			text-transform: uppercase
+// 			position: relative
+// 			text-align: left
+// 			font-size: 15px
+// 			color: $red
+// 			z-index: 1
+// 			top: 40px
+// 			right: 94px
+
+
+// 	.rpg-image
+// 		position: absolute
+// 		margin-top: 100px
+// 		clear: both
+
+
+// 	.texto-rpg
+// 		+flexbox
+// 		+align-items(right)
+// 		+justify-content(right)
+// 		margin-left: 60%
+// 		margin-top: 200px
+// 		p
+// 			text-align: justify
+// 			font-size: 20px
+// 			font-weight: $regular
+// 			color: $blue
+// 			z-index: 1
+// 	.saibamais
+// 		+flexbox
+// 		+align-items(right)
+// 		+justify-content(right)
+// 		margin-left: 70%
+// 		margin-top: 50px
+// 		a
+// 			text-align: center
+// 			font-size: 30px
+// 			font-weight: $regular
+// 			border: 2px solid $blue
+// 			padding: 2px 10px
+// 			color: $blue
+// 			z-index: 1
+
+
+// section.sec-convenios
+// 	.convenios-itens
+// 		+flexbox
+// 		+align-items(center)
+// 		+justify-content(space-around)
+// 		[class^="icone-"]
+// 			//width: 250px
+// 			//height: 150px
+// 			margin-top: 40px
+// 			top: 40px
+// 			text-align: center
+
+// 			&.icone-planserv
+// 				+order(1)
+
+// 			&.icone-medial
+// 				+order(2)
+
+// 			&.icone-saude-caixa
+// 				+order(3)
+
+// 			&.icone-amil
+// 				+order(4)
+
+// 		h1
+// 			position: absolute
+// 			text-align: center
+// 			font-size: 30px
+// 			color: $blue
+// 			margin: auto 0
+// 			margin-top: -85px
+// 			margin-bottom: 30px
+
+
+// .fourth-main
+// 	background-image: url('../images/vca.jpg')
+// 	background-repeat: no-repeat
+// 	background-size: cover
+// 	background-attachment: fixed
+// 	min-height: 600px
+// 	margin-top: 40px
+
+// section.sec-contato
+// 	.funcionamento
+// 		margin-top: 100px
+// 		text-align: center
+// 		+font-size(32px)
+// 		color: $white
+// 		width: 50%
+// 		position: absolute
+// 		clear: both
+
+// 	.horario
+// 		margin-top: 30px
+// 		ul
+// 			li
+// 				text-align: center
+// 				//display: inline-block
+// 				+font-size(32px) 
+
+// 	.endereco
+// 		margin-top: 20px
+// 		p
+// 			text-align: center
+// 			padding: 0
+
+// 	.contato-box
+// 		+flexbox
+// 		+align-items(right)
+// 		+justify-content(center)
+// 		margin-left: 50%
+// 		margin-top: 30px
+// 		width: 450px
+// 		height: 530px
+// 		background-color: $white
+// 		//border: 2px solid $blue
+// 		h1
+// 			text-align: center
+// 			font-size: 30px
+// 			margin-left: 105% 
+// 			font-weight: $regular
+// 			margin-right: -100px
+// 			//padding: 2px 10px
+// 			color: $blue
+// 			//z-index: 1
+
+// 		form
+// 			width: 125%
+// 			margin-right: 272px
+// 			margin-top: 40px
+
+
+// 		input
+// 			margin-right: 10%
+// 			margin-top: 50px
+// 			+flexbox
+// 			+align-items(left)
+// 			+justify-content(left)	
+// 			margin-top: 35px
+// 			margin-right: 250px
+// 			font-size: 28px
+// 			font-weight: $light
+// 			width: 350px
+// 			border-bottom: 1px solid $red
+// 			border-top: 0px
+// 			border-right: 0px
+// 			border-left: 0px
+// 			color: $blue
+// 			background-color: transparent
+// 			outline: none
+
+// 		.message
+// 			border: 1px solid $red
+// 			padding: 0 0  80px 0
+
+// 		.bt-enviar
+// 			+flexbox
+// 			+align-items(right)
+// 			border: 1px solid $red
+// 			width: 90px
+// 			text-align: right
+// 			color: #7c7a7a
+
+
+
+
+
+
+
