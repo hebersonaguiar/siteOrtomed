@@ -10,7 +10,7 @@
         li
             a
                 padding: 7px
-                diplay: block
+                display: block
                 color: $black
                 text-transform: uppercase
                 &:hover,
@@ -23,9 +23,12 @@
         padding-left: 150px
     
 .toggle
-    &:ativo
-        span:nth-child(2)
-            display: none
+    display: none
+
+    +breakpoint($celular)
+        display: block
+    +breakpoint($tablet)
+        display: block
 
     span
         width: 40px
