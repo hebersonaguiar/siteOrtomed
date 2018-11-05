@@ -1,0 +1,205 @@
+header
+	+clearfix
+	min-height: 650px
+	background:
+		image: url('../images/slide-convenios.jpg')
+		position: top center
+		repeat: no-repeat
+		color: $white
+		attachment: fixed
+		size: cover
+
+	.top-bar
+		background-color: $white
+		position: fixed
+		z-index: 1000
+		height: 150px
+		width: 100%  
+
+	.boxshadow
+		position: relative
+		-moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5)
+		-webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5)
+		box-shadow: 1px 2px 4px rgba(0, 0, 0, .5)
+		background: $white
+
+
+	.social
+		float: left
+		margin: 50px 0 0
+		margin-left: 100px
+		li
+			display: inline-block
+			a
+				color: $blue
+				float: left
+				display: block
+				border: 1px solid $blue
+				padding: 4px
+				width: 25px
+				height: 25px
+				line-height: 12px
+				text-align: center
+				+border-radius(120px)
+
+	.telefone
+		float: right
+		margin: 50px 0 0
+		margin-right: 100px
+		clear: both
+		span
+			float: right
+			color: $blue
+			font-size: 14px
+			a,
+			&:link,
+			&:visited,
+			&:hover,
+			&:active
+				text-decoration: none
+				color: $blue
+
+	.clear
+		clear: both
+
+	.logo
+		text-align: center
+
+	.logo-align
+		clear: both
+		display: inline-block
+		margin: 10px 0 0
+		margin-left: 30px
+
+	nav
+		+breakpoint($tablet)
+			display: none
+		+breakpoint($celular)
+			display: none
+		ul
+			li
+				text-align: center
+				display: inline-block
+				margin: 20px 20px 0 0
+				a
+					color: $black
+					text-transform: uppercase	
+
+	.aortomed-nome
+		text-align: left
+		// margin: 200px 0 0
+		margin-top: 250px
+		margin-left: 100px
+		h1
+			font-weight: $bold
+			line-height: 1
+			text-transform: uppercase
+			color: $blue
+
+	.barra
+		+gradient(90deg, $blue, $red)
+		width: 21%
+		height: 3px
+		border: none
+
+section.sec-convenios
+	.convenios-itens
+		margin-top: 50px
+		margin-bottom: 80px
+		+flexbox
+		+flex-wrap(wrap)
+		+align-items(center)
+		// +justify-content(space-around)
+		[class^="icone-"]
+			//width: 250px
+			//height: 150px
+			margin-top: 20px
+			text-align: center
+			margin-bottom: 35px
+
+			&.icone-planserv
+				+order(1)
+				margin-right: 30px
+
+			&.icone-medial
+				+order(2)
+
+			&.icone-saude-caixa
+				+order(3)
+
+			&.icone-amil
+				+order(4)
+
+			&.icone-asfeb
+				+order(5)
+				margin-right: 30px
+
+			&.icone-camed
+				+order(6)
+
+			&.icone-cassi
+				+order(7)
+
+			&.icone-hapvida
+				+order(8)
+
+			&.icone-unimed
+				+order(9)
+				margin-right: 30px
+					
+			&.icone-assefaz
+				+order(12)
+					
+			&.icone-casseb-saude
+				+order(10)
+					
+			&.icone-postal-saude
+				+order(11)	
+					
+			&.icone-sul-america
+				+order(13)
+
+		h1
+			position: absolute
+			text-align: center
+			font-size: 30px
+			color: $blue
+			margin: auto 0
+			margin-top: -85px
+			margin-bottom: 30px
+
+section.sec-medias
+	+gradient(90deg, $blue, $red)
+	width: 100%
+	height: 500px
+
+	.clear
+		clear: both
+
+	.iframe-face
+		margin-top: 30px
+		span
+			margin-top: 30px
+			font-size: 22px
+			font-weight: $bold
+			text-transform: uppercase
+			color: $white			
+			margin-left: 118px
+		iframe
+			margin-top: 5px
+			margin-left: 118px
+
+	.iframe-insta
+		margin-top: -31px
+		float: right
+		margin-right: 120px
+		span
+			margin-top: 30px
+			font-size: 22px
+			font-weight: $bold
+			text-transform: uppercase
+			color: $white			
+			margin-left: 190px
+		blockquote
+			margin-top: 5px
+			margin-left: 190px
