@@ -2,6 +2,6 @@ function toogleFunction() {
   $('.toggle').click(function(){
     $('.layout').toggleClass('ativo');
     $('.menu-responsivo').toggleClass('ativo');
-    $this.toggleClass('ativo');
+    $(this).toggleClass('ativo');
   });
 };
