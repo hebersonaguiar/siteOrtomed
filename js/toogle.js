@@ -1,4 +1,4 @@
-toogleFunction() {
+function toogleFunction() {
   $('.toggle').click(function(){
     $('.layout').toggleClass('ativo');
     $('.menu-responsivo').toggleClass('ativo');
