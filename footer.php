@@ -30,25 +30,8 @@
    <!-- </div> -->
 </footer>
 </div>
-<script type="text/javascript">
-  $(function(){       
-    $('.toggle').click(function(){
-      $('.layout').toggleClass('ativo');
-      $('.menu-responsivo').toggleClass('ativo');
-      $(this).toggleClass('ativo');
-    });
-    new WOW().init();
-    <?php if(is_front_page()): ?>
-      $('.slide').slick({
-        infinite: true,
-        slideToShow: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-      });
-    <?php endif; ?>
-  });
-</script>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script>
    // When the user scrolls down 20px from the top of the document, show the button
    window.onscroll = function() {scrollFunction()};
@@ -86,6 +69,24 @@
   $(window).load(function() {
       //setTimout() for 2 seconds progress stop delay
       setTimeout(function(){NProgress.done()},2000);
+  });
+</script>
+<script type="text/javascript">
+  $(function(){       
+    $('.toggle').click(function(){
+      $('.layout').toggleClass('ativo');
+      $('.menu-responsivo').toggleClass('ativo');
+      $(this).toggleClass('ativo');
+    });
+    new WOW().init();
+    <?php if(is_front_page()): ?>
+      $('.slide').slick({
+        infinite: true,
+        slideToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    <?php endif; ?>
   });
 </script>
 <?php wp_footer(); ?>
