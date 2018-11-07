@@ -19,6 +19,17 @@
       <?php wp_head(); ?>
    </head>
    <body>
+      <nav class="menu-responsivo">
+         <ul>
+            <li><a href="aortomed.html">A Ortomed</a></li>
+            <li><a href="corpoclinico.html">Corpo Clínico</a></li>
+            <li><a href="especialidades.html">Especialidades</a></li>
+            <li><a href="procedimentos.html">Procedimentos</a></li>
+            <li><a href="convenios.html">Convênios</a></li>
+            <li><a href="contato.html">Contato</a></li>
+         </ul>
+      </nav>
+      <div class="layout">
       <header>
          <div class="top-bar boxshadow">
          <div class="container">
