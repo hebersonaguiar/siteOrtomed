@@ -30,7 +30,24 @@
    <!-- </div> -->
 </footer>
 </div>
-
+<script type="text/javascript">
+  $(function(){       
+    $('.toggle').click(function(){
+      $('.layout').toggleClass('ativo');
+      $('.menu-responsivo').toggleClass('ativo');
+      $(this).toggleClass('ativo');
+    });
+    new WOW().init();
+    <?php if(is_front_page()): ?>
+      $('.slide').slick({
+        infinite: true,
+        slideToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    <?php endif; ?>
+  });
+</script>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
    // When the user scrolls down 20px from the top of the document, show the button

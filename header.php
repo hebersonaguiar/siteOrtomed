@@ -17,24 +17,6 @@
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $style; ?>.css">
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
       <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.png" />
-        <script>
-          $(function(){       
-            $('.toggle').click(function(){
-              $('.layout').toggleClass('ativo');
-              $('.menu-responsivo').toggleClass('ativo');
-              $(this).toggleClass('ativo');
-            });
-            new WOW().init();
-            <?php if(is_front_page()): ?>
-              $('.slide').slick({
-                infinite: true,
-                slideToShow: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-              });
-            <?php endif; ?>
-          });
-        </script>
       <?php wp_head(); ?>
    </head>
    <body>
