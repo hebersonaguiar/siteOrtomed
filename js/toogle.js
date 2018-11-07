@@ -1,5 +1,5 @@
 function toogleFunction() {
-  document.getElementByClass("toggle").click(function(){
+  ('.toggle').onclick(function(){
     ('.layout').toggleClass('ativo');
     ('.menu-responsivo').toggleClass('ativo');
     (this).toggleClass('ativo');
