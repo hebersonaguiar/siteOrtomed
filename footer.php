@@ -71,7 +71,7 @@
       setTimeout(function(){NProgress.done()},2000);
   });
 </script> -->
-<script type="text/javascript">
+<script language=javascript>
   $(function(){       
     $('.toggle').click(function(){
       alert('Cancel action occurs!');
