@@ -8,9 +8,9 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-      <script src="<?php bloginfo('template_url'); ?>/js/pace.min.js"></script>
+      <!-- <script src="<?php bloginfo('template_url'); ?>/js/pace.min.js"></script> -->
       <script src="<?php bloginfo('template_url'); ?>/js/toogle.js"></script>
-      <link href="<?php bloginfo('template_url'); ?>/css/pace-theme-minimal.css" rel="stylesheet" />
+      <!-- <link href="<?php bloginfo('template_url'); ?>/css/pace-theme-minimal.css" rel="stylesheet" /> -->
       <link href="<?php bloginfo('template_url'); ?>/css/balloon.css" rel="stylesheet" />
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/geral.css">
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">
