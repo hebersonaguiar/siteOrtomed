@@ -30,6 +30,7 @@
    <!-- </div> -->
 </footer>
 </div>
+<script src="<?php bloginfo('template_url'); ?>/js/toogle.js"></script>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
    // When the user scrolls down 20px from the top of the document, show the button
@@ -70,15 +71,6 @@
       setTimeout(function(){NProgress.done()},2000);
   });
 </script>
-<script type="text/javascript">
-    $(function() {
-      $('.toggle').click(function(){
-        $('.layout').toggleClass('ativo');
-        $('.menu-responsivo').toggleClass('ativo');
-        $this.toggleClass('ativo');
-      });
-    });
-  </script>
 <?php wp_footer(); ?>
 </body>
 </html>
