@@ -72,13 +72,14 @@
   });
 </script> -->
 <script type="text/javascript">
-  // $(function(){       
+  $(function(){       
     $('.toggle').click(function(){
-      $('.layout').toggleClass('ativo');
-      $('.menu-responsivo').toggleClass('ativo');
-      $(this).toggleClass('ativo');
+      alert('Cancel action occurs!');
+      // $('.layout').toggleClass('ativo');
+      // $('.menu-responsivo').toggleClass('ativo');
+      // $(this).toggleClass('ativo');
     });
-  // });
+  });
 </script>
 <?php wp_footer(); ?>
 </body>
