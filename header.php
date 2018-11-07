@@ -9,7 +9,7 @@
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       <!-- <script src="<?php bloginfo('template_url'); ?>/js/pace.min.js"></script> -->
-      <!-- <script src="<?php bloginfo('template_url'); ?>/js/toogle.js"></script> -->
+      <script src="<?php bloginfo('template_url'); ?>/js/toogle.js"></script>
       <!-- <link href="<?php bloginfo('template_url'); ?>/css/pace-theme-minimal.css" rel="stylesheet" /> -->
       <link href="<?php bloginfo('template_url'); ?>/css/balloon.css" rel="stylesheet" />
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/geral.css">
