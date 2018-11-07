@@ -41,12 +41,12 @@
 </script> -->
 <script type="text/javascript">
   function toogleFunction() {
-    $('.toggle').click(function(){
-      $('.layout').toggleClass('ativo');
-      $('.menu-responsivo').toggleClass('ativo');
-      $(this).toggleClass('ativo');
+    ('.toggle').click(function(){
+      ('.layout').toggleClass('ativo');
+      ('.menu-responsivo').toggleClass('ativo');
+      (this).toggleClass('ativo');
     });
-  };
+  }
 </script>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
