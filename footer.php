@@ -70,6 +70,24 @@
       setTimeout(function(){NProgress.done()},2000);
   });
 </script>
+  <script>
+    $(function(){       
+      $('.toggle').click(function(){
+        $('.layout').toggleClass('ativo');
+        $('.menu-responsivo').toggleClass('ativo');
+        $(this).toggleClass('ativo');
+      });
+      new WOW().init();
+      <?php if(is_front_page()): ?>
+        $('.slide').slick({
+          infinite: true,
+          slideToShow: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
+      <?php endif; ?>
+    });
+  </script>
 <?php wp_footer(); ?>
 </body>
 </html>
