@@ -71,7 +71,7 @@
       setTimeout(function(){NProgress.done()},2000);
   });
 </script> -->
-<script language=javascript>
+<!-- <script language=javascript>
   $(function(){       
     $('.toggle').click(function(){
       alert('Cancel action occurs!');
@@ -80,7 +80,7 @@
       // $(this).toggleClass('ativo');
     });
   });
-</script>
+</script> -->
 <?php wp_footer(); ?>
 </body>
 </html>
