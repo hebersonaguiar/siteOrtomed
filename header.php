@@ -35,7 +35,7 @@
          <div class="top-bar boxshadow">
          <div class="container">
             <div class="telefone">	
-               <span>+55 (77) 2101-0500</span><a class="toggle" href="javascript:;"><i class="fas fa-bars"></i></a>
+               <span>+55 (77) 2101-0500</span><a class="toggle" href="javascript:void(0);"><i class="fas fa-bars"></i></a>
             </div>
             <div class="social">
                <ul>
