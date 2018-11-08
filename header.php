@@ -9,7 +9,7 @@
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       <!-- <script src="<?php bloginfo('template_url'); ?>/js/pace.min.js"></script> -->
-      <script src="<?php bloginfo('template_url'); ?>/js/toogle.js"></script>
+      <!-- <script src="<?php bloginfo('template_url'); ?>/js/toogle.js"></script> -->
       <!-- <link href="<?php bloginfo('template_url'); ?>/css/pace-theme-minimal.css" rel="stylesheet" /> -->
       <link href="<?php bloginfo('template_url'); ?>/css/balloon.css" rel="stylesheet" />
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/geral.css">
@@ -20,7 +20,7 @@
       <?php wp_head(); ?>
    </head>
    <body>
-      <nav class="menu-responsivo">
+      <nav class="menu-responsivo" id="responsivo">
          <ul>
             <li><a href="aortomed.html">A Ortomed</a></li>
             <li><a href="corpoclinico.html">Corpo Clínico</a></li>
@@ -35,7 +35,7 @@
          <div class="top-bar boxshadow">
          <div class="container">
             <div class="telefone">	
-               <span>+55 (77) 2101-0500</span><a onclick="toogleFunction()" id="toggle" style="cursor: pointer; color: blue;" href="javascript:;"><i class="fas fa-bars"></i></a>
+               <span>+55 (77) 2101-0500</span><a onclick="toogleFunction()" class="toggle" href="javascript:;"><i class="fas fa-bars"></i></a>
             </div>
             <div class="social">
                <ul>

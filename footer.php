@@ -81,6 +81,12 @@
     });
   });
 </script> -->
+<script type="text/javascript">
+  function toogleFunction() {
+    var element = document.getElementById("responsivo");
+    element.classList.add("ativo");
+  }
+</script>
 <?php wp_footer(); ?>
 </body>
 </html>

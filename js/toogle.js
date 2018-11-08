@@ -1,5 +1,5 @@
 function toogleFunction() {
-	var element = document.getElementById("menu-responsivo");
+	var element = document.getElementById("responsivo");
 	element.classList.add("ativo");
   // $('.toggle').click(function(){
   	// alert('Cancel action occurs!');
