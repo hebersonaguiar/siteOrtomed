@@ -24,13 +24,13 @@
    </div>
    <div class="clear"></div>
    <div class="copyright">
-      <p>Copyright © <?php echo date('Y'); ?> Ortomed | Desenvolvido por <a href="http://gethelp.com.br/"  target="_blank">Get Help - Especialistas em Soluções</a></p>
+      <p>Copyright © <?php echo date('Y'); ?> Ortomed | Desenvolvido por <a>Heberson Aguiar</a></p>
       <p>As informações disponíveis neste site são fornecidas apenas para fins informativos.</p>
    </div>
    <!-- </div> -->
 </footer>
 </div>
-<!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/pace.min.js"></script>
 <link href="<?php bloginfo('template_url'); ?>/css/pace-theme-minimal.css" rel="stylesheet" />
