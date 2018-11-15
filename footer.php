@@ -32,7 +32,9 @@
 </div>
 <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
 <script src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
-<!-- <script>
+<script src="<?php bloginfo('template_url'); ?>/js/pace.min.js"></script>
+<link href="<?php bloginfo('template_url'); ?>/css/pace-theme-minimal.css" rel="stylesheet" />
+<script>
    // When the user scrolls down 20px from the top of the document, show the button
    window.onscroll = function() {scrollFunction()};
    
@@ -70,22 +72,6 @@
       //setTimout() for 2 seconds progress stop delay
       setTimeout(function(){NProgress.done()},2000);
   });
-</script> -->
-<!-- <script language=javascript>
-  $(function(){       
-    $('.toggle').click(function(){
-      alert('Cancel action occurs!');
-      // $('.layout').toggleClass('ativo');
-      // $('.menu-responsivo').toggleClass('ativo');
-      // $(this).toggleClass('ativo');
-    });
-  });
-</script> -->
-<script type="text/javascript">
-  function toogleFunction() {
-    var element = document.getElementById("responsivo");
-    element.classList.add("ativo");
-  }
 </script>
 <?php wp_footer(); ?>
 </body>
