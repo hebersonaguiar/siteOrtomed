@@ -20,11 +20,16 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
       <script>
       $(document).ready(function(){
-       $(".toggle").toggle(
-           function(){$(".toggle").css({"color": "red"});},
-           function(){$(".toggle").css({"color": "blue"});},
-           function(){$(".toggle").css({"color": "green"});
-       });
+       // $(".toggle").toggle(
+       //     function(){$(".toggle").css({"color": "red"});},
+       //     function(){$(".toggle").css({"color": "blue"});},
+       //     function(){$(".toggle").css({"color": "green"});
+       // });
+       $('.toggle').click(function(){
+            $('.layout').toggleClass('ativo');
+            $('.menu-responsivo').toggleClass('ativo');
+            $this.toggleClass('ativo');
+         });
       });
       </script>
       <?php wp_head(); ?>
