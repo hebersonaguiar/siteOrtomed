@@ -1,16 +1,14 @@
 function toogleFunction() {
 	// var element = document.getElementById("responsivo");
 	// element.classList.add("ativo");
-	if (!document.getElementsByClassName("ativo").length){
+	if (!document.getElementsByClassName('ativo').length){
 	    //class not there
-	    var element = document.getElementById("responsivo");
-		element.classList.add("ativo");
-		elem.onclick.apply(elem);
 	}
 	else{
 	//class there
-		var element = document.getElementById("responsivo");
-    	element.classList.remove("ativo");
+		var element = document.getElementById("bar");
+    	element.classList.remove("fas fa-bars");
+    	element.classList.add("fa fa-envelope");
 	}
   // $('.toggle').click(function(){
   	// alert('Cancel action occurs!');
