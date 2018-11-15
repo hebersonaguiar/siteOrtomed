@@ -31,7 +31,7 @@
 </footer>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<!-- <script src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script> -->
+<script src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
 <script>
    // When the user scrolls down 20px from the top of the document, show the button
    window.onscroll = function() {scrollFunction()};
