@@ -17,6 +17,16 @@
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $style; ?>.css">
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
       <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.png" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+      <script>
+      $(document).ready(function(){
+       $("p").toggle(
+           function(){$("p").css({"color": "red"});},
+           function(){$("p").css({"color": "blue"});},
+           function(){$("p").css({"color": "green"});
+       });
+      });
+      </script>
       <?php wp_head(); ?>
    </head>
    <body>
@@ -35,7 +45,8 @@
          <div class="top-bar boxshadow">
          <div class="container">
             <div class="telefone">	
-               <span>+55 (77) 2101-0500</span><a  class="toggle" href="javascript:toogleFunction();"><i class="fas fa-bars"></i></a>
+               <span>+55 (77) 2101-0500</span><a onclick="toogleFunction()" class="toggle" href="javascript:;"><i class="fas fa-bars"></i></a>
+               <p style="font-size:40px">Click me.</p>
             </div>
             <div class="social">
                <ul>

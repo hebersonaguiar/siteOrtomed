@@ -4,14 +4,13 @@ function toogleFunction() {
 	if (!document.getElementsByClassName("ativo").length){
 	    //class not there
 	    var element = document.getElementById("responsivo");
-		var elem = element.classList.add("ativo");
+		element.classList.add("ativo");
 		elem.onclick.apply(elem);
 	}
 	else{
 	//class there
 		var element = document.getElementById("responsivo");
-    	var elem = element.classList.remove("ativo");
-    	elem.onclick.apply(elem);
+    	element.classList.remove("ativo");
 	}
   // $('.toggle').click(function(){
   	// alert('Cancel action occurs!');
