@@ -12,7 +12,6 @@
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/geral.css">
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">      
       <script src="<?php bloginfo('template_url'); ?>/js/pace.min.js"></script>
-      <script src="<?php bloginfo('template_url'); ?>/js/toogle.js"></script>
       <link href="<?php bloginfo('template_url'); ?>/css/pace-theme-minimal.css" rel="stylesheet" />
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $style; ?>.css">
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
