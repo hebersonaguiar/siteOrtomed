@@ -23,6 +23,9 @@
             $this.toggleClass('ativo');
          });
       });
+      $(document).ready(function(){
+         $('.toggle').removeClass('ativo');
+         });
       </script>
       <?php wp_head(); ?>
    </head>
