@@ -3,7 +3,7 @@
 		template name: Exames
 	*/
 	$style = 'exames';
-	$styleMenu = 'geral';
+	$styleGeral = 'geral';
 	include('header-in.php');
 	include('includes/pages/exames.php');
 	include('footer.php');
