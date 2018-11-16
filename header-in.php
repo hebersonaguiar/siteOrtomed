@@ -25,7 +25,7 @@
       });
       $(document).ready(function(){
          $('.toggle').removeClass('ativo');
-         });
+      });
       </script>
       <?php wp_head(); ?>
    </head>
