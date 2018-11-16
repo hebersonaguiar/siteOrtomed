@@ -24,6 +24,7 @@
          });
       });
       $(document).ready(function(){
+         // funcao para remover menu-toggle
          $('.toggle').removeClass('ativo');
       });
       </script>
