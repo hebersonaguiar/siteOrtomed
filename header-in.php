@@ -13,9 +13,23 @@
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $style; ?>.css">
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">
       <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.png" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+      <script>
+      $(document).ready(function(){
+       $('.toggle').click(function(){
+            $('.layout').toggleClass('ativo');
+            $('.menu-responsivo').toggleClass('ativo');
+            $this.toggleClass('ativo');
+         });
+      });
+      </script>
       <?php wp_head(); ?>
    </head>
    <body>
+      <nav class="menu-responsivo" id="responsivo">
+         <?php include('includes/organisms/menu.php'); ?>
+      </nav>
+      <div class="layout">
       <style>
          <?php if(get_the_post_thumbnail()) : ?>
          header{
@@ -31,7 +45,7 @@
          <div class="top-bar boxshadow">
             <div class="container">
                <div class="telefone">	
-                  <span><a href="tel:7721010500%20">+55 (77) 2101-0500</a></span>
+                  <span>+55 (77) 2101-0500</span><a class="toggle" href="javascript:;"><i class="fas fa-bars"></i></a>
                </div>
                <div class="social">
                   <ul>
