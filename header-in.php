@@ -11,7 +11,7 @@
       <link href="<?php bloginfo('template_url'); ?>/css/pace-theme-minimal.css" rel="stylesheet" />
       <link href="<?php bloginfo('template_url'); ?>/css/balloon.css" rel="stylesheet" />
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $style; ?>.css">
-      <!-- <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $styleMenu; ?>.css"> -->
+      <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/<?php echo $styleMenu; ?>.css">
       <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">
       <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.png" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
