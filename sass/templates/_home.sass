@@ -161,27 +161,15 @@ section.sec-convenios
 
 			&.icone-planserv
 				+order(1)
-				+breakpoint($tablet)
-					img:
-						width: 210px
 
 			&.icone-medial
 				+order(2)
-				+breakpoint($tablet)
-					img:
-						width: 210px
 
 			&.icone-saude-caixa
 				+order(3)
-				+breakpoint($tablet)
-					img:
-						width: 210px
 
 			&.icone-amil
 				+order(4)
-				+breakpoint($tablet)
-					img:
-						width: 210px
 
 		h1
 			position: absolute
@@ -191,6 +179,10 @@ section.sec-convenios
 			margin: auto 0
 			margin-top: -85px
 			margin-bottom: 30px
+
+		+breakpoint($tablet)
+			img:
+				width: 210px
 
 .fourth-main
 	background-image: url('../images/vca.jpg')
