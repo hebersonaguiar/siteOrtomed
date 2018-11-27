@@ -91,9 +91,14 @@ header
 
 	.barra
 		+gradient(90deg, $blue, $red)
-		width: 27%
+		width: 29%
 		height: 3px
+		// margin: 200px 0 0
+		// margin-left: 100px
 		border: none
+		margin: 0
+		+breakpoint($tablet)
+			width: 40%
 
 section.sec-medias
 	+gradient(90deg, $blue, $red)
