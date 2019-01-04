@@ -149,10 +149,9 @@ header {
     background-image: -o-linear-gradient(90deg, #3e4095, #ed3237);
     background-image: linear-gradient(90deg, #3e4095, #ed3237);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
-    width: 29%;
+    width: 24%;
     height: 3px;
-    border: none;
-    margin: 0; }
+    border: none; }
     @media (max-width: 991px) {
       header .barra {
         width: 40%; } }
