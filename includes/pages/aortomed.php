@@ -23,7 +23,7 @@
    </section>
 </div>
 </main>  
-<main class="second-main">
+<!-- <main class="second-main"> -->
    <!-- <div class="container">
       <section class="sec-dep">
          <div class="dep-nome">
@@ -42,7 +42,7 @@
          </div>
       </section>
    </div> -->
-</main>
+<!-- </main> -->
 <main class="third-main">
 <section class="sec-medias">
    <div class="container">
