@@ -403,3 +403,41 @@ section.sec-contato .contato-box {
     @media (max-width: 991px) {
       section.sec-contato .contato-box .bt-enviar {
         width: 107px; } }
+
+section.sec-medias {
+  background-color: #ed3237;
+  background-image: -webkit-gradient(linear, 90deg, from(#3e4095), to(#ed3237));
+  background-image: -webkit-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -moz-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -ms-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: -o-linear-gradient(90deg, #3e4095, #ed3237);
+  background-image: linear-gradient(90deg, #3e4095, #ed3237);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
+  width: 100%;
+  height: 500px; }
+  section.sec-medias .clear {
+    clear: both; }
+  section.sec-medias .iframe-face span {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-left: 118px; }
+  section.sec-medias .iframe-face iframe {
+    margin-top: 5px;
+    margin-left: 118px; }
+  section.sec-medias .iframe-insta {
+    margin-top: -31px;
+    float: right;
+    margin-right: 120px; }
+    section.sec-medias .iframe-insta span {
+      margin-top: 30px;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #FFF;
+      margin-left: 190px; }
+    section.sec-medias .iframe-insta blockquote {
+      margin-top: 5px;
+      margin-left: 190px; }
