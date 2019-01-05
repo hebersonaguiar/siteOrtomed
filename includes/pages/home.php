@@ -80,7 +80,7 @@
    <section class="sec-contato">
       <div class="container">
          <div class="funcionamento">
-            <a href="contato">
+            <!-- <a href="contato"> -->
                <div class="logo-ortomed-contato">
                   <img src="<?php bloginfo('template_url'); ?>/images/ortomed-nome-branco.png" alt="Ortomed Logo">
                </div>
@@ -95,7 +95,7 @@
                   <p>Avenida Bartolomeu de Gusmão, 726</p>
                   <p>Vitória da Conquista - BA</p>
                </div>
-            </a>
+            <!-- </a> -->
          </div>
          <div class="clear"></div>
          <div class="contato-box">
