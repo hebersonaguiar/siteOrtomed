@@ -3,11 +3,11 @@
    <!-- <div class="container"> -->
    <div class="box-one">
       <div class="endereco">
-         <a href="contato.html">
+         <!-- <a href="contato.html"> -->
             <span class="fas fa-map-marker-alt"></span>
             <p>Avenida Bartolomeu de Gusmão, 726</p>
             <p>Vitória da Conquista - BA</p>
-         </a>
+         <!-- </a> -->
       </div>
    </div>
    <div class="box-two">
