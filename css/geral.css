@@ -179,9 +179,9 @@ header {
     background-image: -o-linear-gradient(90deg, #3e4095, #ed3237);
     background-image: linear-gradient(90deg, #3e4095, #ed3237);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
+    width: 32%;
     height: 3px;
-    border: none;
-    margin: 30%; }
+    border: none; }
   header p,
   header strong {
     margin: 10px 0 0;
