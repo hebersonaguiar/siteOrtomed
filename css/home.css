@@ -77,15 +77,19 @@ section.sec-ortomed .especialidades {
     z-index: 1;
     top: 90px;
     font-weight: 700; }
-  section.sec-ortomed .especialidades .img-psicologia h1 {
-    text-transform: uppercase;
-    position: relative;
-    text-align: center;
-    font-size: 20px;
-    color: #000;
-    z-index: 1;
-    top: 90px;
-    font-weight: 700; }
+  section.sec-ortomed .especialidades .img-traumatologia {
+    margin-top: 49px;
+    margin-left: 20px;
+    margin-right: 20px; }
+    section.sec-ortomed .especialidades .img-traumatologia h1 {
+      text-transform: uppercase;
+      position: relative;
+      text-align: center;
+      font-size: 20px;
+      color: #000;
+      z-index: 1;
+      top: 90px;
+      font-weight: 700; }
 
 .second-main {
   background-image: url("../images/fundo-rpg.jpg");
@@ -423,14 +427,14 @@ section.sec-medias {
     font-weight: 700;
     text-transform: uppercase;
     color: #FFF;
-    margin-left: 118px; }
+    margin-left: 20%; }
   section.sec-medias .iframe-face iframe {
     margin-top: 5px;
-    margin-left: 118px; }
+    margin-left: 20%; }
   section.sec-medias .iframe-insta {
     margin-top: -31px;
     float: right;
-    margin-right: 120px; }
+    margin-right: 20%; }
     section.sec-medias .iframe-insta span {
       margin-top: 30px;
       font-size: 22px;

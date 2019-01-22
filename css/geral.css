@@ -157,6 +157,19 @@ header {
     display: inline-block;
     margin-left: 250px;
     margin-bottom: 10px; }
+  header .barra {
+    background-color: #ed3237;
+    background-image: -webkit-gradient(linear, 90deg, from(#3e4095), to(#ed3237));
+    background-image: -webkit-linear-gradient(90deg, #3e4095, #ed3237);
+    background-image: -moz-linear-gradient(90deg, #3e4095, #ed3237);
+    background-image: -ms-linear-gradient(90deg, #3e4095, #ed3237);
+    background-image: -o-linear-gradient(90deg, #3e4095, #ed3237);
+    background-image: linear-gradient(90deg, #3e4095, #ed3237);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#3e4095', EndColorStr='#ed3237');
+    width: 20%;
+    height: 3px;
+    border: none;
+    margin: auto; }
   header p,
   header strong {
     margin: 10px 0 0;
