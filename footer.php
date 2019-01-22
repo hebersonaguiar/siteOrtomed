@@ -19,7 +19,7 @@
    <div class="box-three">
       <div class="phone">
          <span class="fas fa-phone"></span>
-         <p><a href="tel:7721010500%20">+55 (77) 2101-0500</a></p>
+         <p>+55 (77) 2101-0500</p>
       </div>
    </div>
    <div class="clear"></div>
