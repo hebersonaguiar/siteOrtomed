@@ -559,14 +559,14 @@ section.sec-medias {
       font-weight: 700;
       text-transform: uppercase;
       color: #FFF;
-      margin-left: 118px; }
+      margin-left: 20%; }
     section.sec-medias .iframe-face iframe {
       margin-top: 5px;
-      margin-left: 118px; }
+      margin-left: 20%; }
   section.sec-medias .iframe-insta {
     margin-top: -31px;
     float: right;
-    margin-right: 120px; }
+    margin-right: 20%; }
     section.sec-medias .iframe-insta span {
       margin-top: 30px;
       font-size: 22px;
