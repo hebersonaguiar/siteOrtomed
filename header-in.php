@@ -76,7 +76,7 @@
                   <div class="slide-aortomed">
                      <h1><?php the_title(); ?></h1>
                   </div>
-                  <div class="barra"></div>
+                  <div class="barra-in"></div>
                </div>
             </div>
          </div>
