@@ -609,6 +609,12 @@ footer {
       footer .endereco p {
         font-size: 14px;
         margin-left: -190px; } }
+    @media (max-width: 1351px) {
+      footer .endereco span {
+        margin-left: 108px; } }
+    @media (min-width: 1905px) {
+      footer .endereco span {
+        margin-left: 115px; } }
   footer .box-two {
     background-color: #717070;
     width: 33%;
@@ -636,6 +642,12 @@ footer {
         margin-left: 25px; }
       footer .email p {
         font-size: 14px; } }
+    @media (max-width: 1351px) {
+      footer .email span {
+        margin-left: 171px; } }
+    @media (min-width: 1905px) {
+      footer .email span {
+        margin-left: 174px; } }
   footer .box-three {
     background-color: #717070;
     width: 33%;
@@ -662,6 +674,12 @@ footer {
         margin-left: 62px; }
       footer .phone p {
         font-size: 14px; } }
+    @media (max-width: 1351px) {
+      footer .phone span {
+        margin-left: 214px; } }
+    @media (min-width: 1905px) {
+      footer .phone span {
+        margin-left: 215px; } }
   footer .copyright {
     border-top: 1px solid #000;
     font-size: 13px;

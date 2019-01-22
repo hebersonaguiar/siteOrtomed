@@ -16,22 +16,6 @@ body {
   line-height: 1; }
   body strong {
     font-weight: 700; }
-  body #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px; }
-  body #myBtn:hover {
-    background-color: #3e4095; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -125,9 +109,6 @@ header {
       float: right;
       color: #3e4095;
       font-size: 14px; }
-      header .telefone span a, header .telefone span:link, header .telefone span:visited, header .telefone span:hover, header .telefone span:active {
-        text-decoration: none;
-        color: #3e4095; }
   header .clear {
     clear: both; }
   header .logo {
@@ -171,16 +152,6 @@ header {
     width: 28%;
     height: 3px;
     border: none; }
-
-section.sec-especialidades .especialidades table {
-  margin: auto; }
-section.sec-especialidades .especialidades td {
-  padding: 25px;
-  color: #3e4095;
-  font-size: 22px; }
-  section.sec-especialidades .especialidades td a, section.sec-especialidades .especialidades td:link, section.sec-especialidades .especialidades td:visited, section.sec-especialidades .especialidades td:hover, section.sec-especialidades .especialidades td:active {
-    text-decoration: none;
-    color: #3e4095; }
 
 section.sec-medias {
   background-color: #ed3237;
@@ -236,9 +207,6 @@ footer {
     margin-left: 250px;
     font-size: 30px;
     color: #FFF; }
-    footer .endereco a, footer .endereco:link, footer .endereco:visited, footer .endereco:hover, footer .endereco:active {
-      text-decoration: none;
-      color: #FFF; }
     footer .endereco span {
       text-align: center;
       padding: 0;
@@ -250,6 +218,18 @@ footer {
       color: #FFF;
       text-align: center;
       margin-left: -128px; }
+    @media (max-width: 991px) {
+      footer .endereco span {
+        margin-left: -70px; }
+      footer .endereco p {
+        font-size: 14px;
+        margin-left: -190px; } }
+    @media (max-width: 1351px) {
+      footer .endereco span {
+        margin-left: 108px; } }
+    @media (min-width: 1905px) {
+      footer .endereco span {
+        margin-left: 115px; } }
   footer .box-two {
     background-color: #717070;
     width: 33%;
@@ -272,6 +252,17 @@ footer {
       color: #FFF;
       text-align: center;
       margin-left: -128px; }
+    @media (max-width: 991px) {
+      footer .email span {
+        margin-left: 25px; }
+      footer .email p {
+        font-size: 14px; } }
+    @media (max-width: 1351px) {
+      footer .email span {
+        margin-left: 171px; } }
+    @media (min-width: 1905px) {
+      footer .email span {
+        margin-left: 174px; } }
   footer .box-three {
     background-color: #717070;
     width: 33%;
@@ -293,9 +284,17 @@ footer {
       color: #FFF;
       text-align: center;
       margin-left: -128px; }
-      footer .phone p a, footer .phone p:link, footer .phone p:visited, footer .phone p:hover, footer .phone p:active {
-        text-decoration: none;
-        color: #FFF; }
+    @media (max-width: 991px) {
+      footer .phone span {
+        margin-left: 62px; }
+      footer .phone p {
+        font-size: 14px; } }
+    @media (max-width: 1351px) {
+      footer .phone span {
+        margin-left: 214px; } }
+    @media (min-width: 1905px) {
+      footer .phone span {
+        margin-left: 215px; } }
   footer .copyright {
     border-top: 1px solid #000;
     font-size: 13px;
