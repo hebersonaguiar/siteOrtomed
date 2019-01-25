@@ -313,7 +313,7 @@ section.sec-contato .funcionamento {
   @media (max-width: 991px) {
     section.sec-contato .funcionamento {
       width: 32%; } }
-  @media (min-width: 1905px) {
+  @media (min-width: 1900px) {
     section.sec-contato .funcionamento {
       margin-left: -198px; } }
 section.sec-contato .horario {
