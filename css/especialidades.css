@@ -153,6 +153,16 @@ header {
     height: 3px;
     border: none; }
 
+section.sec-especialidades .especialidades table {
+  margin: auto; }
+section.sec-especialidades .especialidades td {
+  padding: 25px;
+  color: #3e4095;
+  font-size: 22px; }
+  section.sec-especialidades .especialidades td a, section.sec-especialidades .especialidades td:link, section.sec-especialidades .especialidades td:visited, section.sec-especialidades .especialidades td:hover, section.sec-especialidades .especialidades td:active {
+    text-decoration: none;
+    color: #3e4095; }
+
 section.sec-medias {
   background-color: #ed3237;
   background-image: -webkit-gradient(linear, 90deg, from(#3e4095), to(#ed3237));
