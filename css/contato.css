@@ -286,7 +286,7 @@ footer {
     @media (max-width: 1351px) {
       footer .endereco span {
         margin-left: 108px; } }
-    @media (min-width: 1905px) {
+    @media (min-width: 1900px) {
       footer .endereco span {
         margin-left: 115px; } }
   footer .box-two {
@@ -319,7 +319,7 @@ footer {
     @media (max-width: 1351px) {
       footer .email span {
         margin-left: 171px; } }
-    @media (min-width: 1905px) {
+    @media (min-width: 1900px) {
       footer .email span {
         margin-left: 174px; } }
   footer .box-three {
@@ -351,7 +351,7 @@ footer {
     @media (max-width: 1351px) {
       footer .phone span {
         margin-left: 214px; } }
-    @media (min-width: 1905px) {
+    @media (min-width: 1900px) {
       footer .phone span {
         margin-left: 215px; } }
   footer .copyright {
