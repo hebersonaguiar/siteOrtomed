@@ -218,6 +218,42 @@ section.sec-convenios
 				margin-top: -85px
 				margin-bottom: 30px
 
+	+breakpoint($mtablet)
+		.convenios-itens
+			+flexbox
+			+align-items(center)
+			+justify-content(space-around)
+			[class^="icone-"]
+				//width: 250px
+				//height: 150px
+				margin-top: 40px
+				top: 40px
+				text-align: center
+				
+
+				&.icone-planserv
+					+order(1)
+
+				&.icone-medial
+					+order(2)
+
+				&.icone-saude-caixa
+					+order(3)
+
+				&.icone-amil
+					+order(4)
+			img
+				width: 177px
+
+			h1
+				position: absolute
+				text-align: center
+				font-size: 30px
+				color: $blue
+				margin: auto 0
+				margin-top: -85px
+				margin-bottom: 30px
+
 .fourth-main
 	background-image: url('../images/vca.jpg')
 	background-repeat: no-repeat
@@ -281,6 +317,11 @@ section.sec-contato
 			width: 125%
 			margin-right: 272px
 			margin-top: 40px
+
+		+breakpoint($tablet)
+			width: 72%
+			margin-right: 499px
+
 
 
 		input
