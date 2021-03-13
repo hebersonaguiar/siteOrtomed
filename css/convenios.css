@@ -125,6 +125,9 @@ header {
       float: right;
       color: #3e4095;
       font-size: 14px; }
+      header .telefone span a, header .telefone span:link, header .telefone span:visited, header .telefone span:hover, header .telefone span:active {
+        text-decoration: none;
+        color: #3e4095; }
   header .clear {
     clear: both; }
   header .logo {
@@ -168,6 +171,117 @@ header {
     width: 21%;
     height: 3px;
     border: none; }
+
+section.sec-convenios .convenios-itens {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+  section.sec-convenios .convenios-itens [class^="icone-"] {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 35px; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-planserv {
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+      -moz-order: 1;
+      -ms-flex-order: 1;
+      order: 1;
+      margin-right: 30px; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-medial {
+      -webkit-box-ordinal-group: 3;
+      -webkit-order: 2;
+      -moz-order: 2;
+      -ms-flex-order: 2;
+      order: 2; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-saude-caixa {
+      -webkit-box-ordinal-group: 4;
+      -webkit-order: 3;
+      -moz-order: 3;
+      -ms-flex-order: 3;
+      order: 3; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-amil {
+      -webkit-box-ordinal-group: 5;
+      -webkit-order: 4;
+      -moz-order: 4;
+      -ms-flex-order: 4;
+      order: 4; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-asfeb {
+      -webkit-box-ordinal-group: 6;
+      -webkit-order: 5;
+      -moz-order: 5;
+      -ms-flex-order: 5;
+      order: 5;
+      margin-right: 30px; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-camed {
+      -webkit-box-ordinal-group: 7;
+      -webkit-order: 6;
+      -moz-order: 6;
+      -ms-flex-order: 6;
+      order: 6; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-cassi {
+      -webkit-box-ordinal-group: 8;
+      -webkit-order: 7;
+      -moz-order: 7;
+      -ms-flex-order: 7;
+      order: 7; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-hapvida {
+      -webkit-box-ordinal-group: 9;
+      -webkit-order: 8;
+      -moz-order: 8;
+      -ms-flex-order: 8;
+      order: 8; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-unimed {
+      -webkit-box-ordinal-group: 10;
+      -webkit-order: 9;
+      -moz-order: 9;
+      -ms-flex-order: 9;
+      order: 9;
+      margin-right: 30px; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-assefaz {
+      -webkit-box-ordinal-group: 13;
+      -webkit-order: 12;
+      -moz-order: 12;
+      -ms-flex-order: 12;
+      order: 12; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-casseb-saude {
+      -webkit-box-ordinal-group: 11;
+      -webkit-order: 10;
+      -moz-order: 10;
+      -ms-flex-order: 10;
+      order: 10; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-postal-saude {
+      -webkit-box-ordinal-group: 12;
+      -webkit-order: 11;
+      -moz-order: 11;
+      -ms-flex-order: 11;
+      order: 11; }
+    section.sec-convenios .convenios-itens [class^="icone-"].icone-sul-america {
+      -webkit-box-ordinal-group: 14;
+      -webkit-order: 13;
+      -moz-order: 13;
+      -ms-flex-order: 13;
+      order: 13; }
+  section.sec-convenios .convenios-itens h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    color: #3e4095;
+    margin: auto 0;
+    margin-top: -85px;
+    margin-bottom: 30px; }
 
 section.sec-medias {
   background-color: #ed3237;
@@ -223,6 +337,9 @@ footer {
     margin-left: 250px;
     font-size: 30px;
     color: #FFF; }
+    footer .endereco a, footer .endereco:link, footer .endereco:visited, footer .endereco:hover, footer .endereco:active {
+      text-decoration: none;
+      color: #FFF; }
     footer .endereco span {
       text-align: center;
       padding: 0;
@@ -234,18 +351,6 @@ footer {
       color: #FFF;
       text-align: center;
       margin-left: -128px; }
-    @media (max-width: 991px) {
-      footer .endereco span {
-        margin-left: -70px; }
-      footer .endereco p {
-        font-size: 14px;
-        margin-left: -190px; } }
-    @media (max-width: 1351px) {
-      footer .endereco span {
-        margin-left: 108px; } }
-    @media (min-width: 1900px) {
-      footer .endereco span {
-        margin-left: 115px; } }
   footer .box-two {
     background-color: #717070;
     width: 33%;
@@ -268,17 +373,6 @@ footer {
       color: #FFF;
       text-align: center;
       margin-left: -128px; }
-    @media (max-width: 991px) {
-      footer .email span {
-        margin-left: 25px; }
-      footer .email p {
-        font-size: 14px; } }
-    @media (max-width: 1351px) {
-      footer .email span {
-        margin-left: 171px; } }
-    @media (min-width: 1900px) {
-      footer .email span {
-        margin-left: 174px; } }
   footer .box-three {
     background-color: #717070;
     width: 33%;
@@ -300,17 +394,9 @@ footer {
       color: #FFF;
       text-align: center;
       margin-left: -128px; }
-    @media (max-width: 991px) {
-      footer .phone span {
-        margin-left: 62px; }
-      footer .phone p {
-        font-size: 14px; } }
-    @media (max-width: 1351px) {
-      footer .phone span {
-        margin-left: 214px; } }
-    @media (min-width: 1900px) {
-      footer .phone span {
-        margin-left: 215px; } }
+      footer .phone p a, footer .phone p:link, footer .phone p:visited, footer .phone p:hover, footer .phone p:active {
+        text-decoration: none;
+        color: #FFF; }
   footer .copyright {
     border-top: 1px solid #000;
     font-size: 13px;
@@ -330,19 +416,3 @@ footer {
       color: #FFF; }
       footer .copyright p a {
         color: #000; }
-  footer #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: red;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px; }
-  footer #myBtn {
-    background-color: #3e4095; }

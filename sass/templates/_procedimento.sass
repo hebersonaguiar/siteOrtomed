@@ -51,6 +51,13 @@ header
 			float: right
 			color: $blue
 			font-size: 14px
+			a,
+			&:link,
+			&:visited,
+			&:hover,
+			&:active
+				text-decoration: none
+				color: $blue
 
 	.clear
 		clear: both
@@ -94,6 +101,79 @@ header
 		width: 30%
 		height: 3px
 		border: none
+
+section.sec-procedimentos
+	+flexbox
+	+flex-direction(column)
+	[class^="thumb-"]
+		float: left
+		margin-top: 50px
+		margin-bottom: 50px
+
+		img
+			float: left
+			width: 210px
+			height: 150px
+			margin-right: 90px
+			margin-top: 22px
+
+		.text
+			color: $blue
+			h1
+				font-size: 22px
+				color: $blue
+			p
+				color: $blue
+				font-size: 16px
+				text-align: justify
+			h2
+				font-size: 14px
+				border: 1px solid $blue
+				padding-left: 9px
+				padding-top: 5px
+				padding-bottom: 5px
+				width: 100px
+				margin-left: 300px
+				margin-top: 13px
+				a,
+				&:link,
+				&:visited,
+				&:hover,
+				&:active
+					text-decoration: none
+					color: $blue
+
+		&.thumb-um
+			+order(1)
+		&.thumb-dois
+			+order(2)
+		&.thumb-tres
+			+order(3)
+		&.thumb-quatro
+			+order(4)
+
+	// .thumb
+	// 	float: left
+	// 	margin-top: 50px
+	// 	margin-bottom: 50px
+
+	// img
+	// 	float: left
+	// 	width: 210px
+	// 	height: 150px
+	// 	margin-right: 90px
+
+	// .text
+	// 	// float: right
+	// 	color: $blue
+	// 	h1
+	// 		font-size: 22px
+	// 		color: $blue
+	// 	p
+	// 		color: $blue
+	// 		font-size: 16px
+	// 		text-align: justify
+
 
 section.sec-medias
 	+gradient(90deg, $blue, $red)

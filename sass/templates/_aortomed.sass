@@ -51,6 +51,13 @@ header
 			float: right
 			color: $blue
 			font-size: 14px
+			a,
+			&:link,
+			&:visited,
+			&:hover,
+			&:active
+				text-decoration: none
+				color: $blue
 
 	.clear
 		clear: both
@@ -106,14 +113,11 @@ header
 
 	.barra
 		+gradient(90deg, $blue, $red)
-		width: 24%
+		width: 20%
 		height: 3px
 		// margin: 200px 0 0
 		// margin-left: 100px
 		border: none
-		// margin: 0
-		+breakpoint($tablet)
-			width: 40%
 
 section.sec-ortomed
 	.aortomed
@@ -125,11 +129,6 @@ section.sec-ortomed
 			clear: both
 			font-size: 20px
 			display: inline-block
-
-		+breakpoint($tablet)
-			p
-				font-size: 18px
-
 
 	.cnes
 		float: left
@@ -211,15 +210,15 @@ section.sec-medias
 			font-weight: $bold
 			text-transform: uppercase
 			color: $white			
-			margin-left: 20%
+			margin-left: 118px
 		iframe
 			margin-top: 5px
-			margin-left: 20%
+			margin-left: 118px
 
 	.iframe-insta
 		margin-top: -31px
 		float: right
-		margin-right: 20%
+		margin-right: 120px
 		span
 			margin-top: 30px
 			font-size: 22px

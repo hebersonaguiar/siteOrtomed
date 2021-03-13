@@ -51,6 +51,13 @@ header
 			float: right
 			color: $blue
 			font-size: 14px
+			a,
+			&:link,
+			&:visited,
+			&:hover,
+			&:active
+				text-decoration: none
+				color: $blue
 
 	.clear
 		clear: both
@@ -94,6 +101,72 @@ header
 		width: 21%
 		height: 3px
 		border: none
+
+section.sec-convenios
+	.convenios-itens
+		margin-top: 50px
+		margin-bottom: 80px
+		+flexbox
+		+flex-wrap(wrap)
+		+align-items(center)
+		// +justify-content(space-around)
+		[class^="icone-"]
+			//width: 250px
+			//height: 150px
+			margin-top: 20px
+			text-align: center
+			margin-bottom: 35px
+
+			&.icone-planserv
+				+order(1)
+				margin-right: 30px
+
+			&.icone-medial
+				+order(2)
+
+			&.icone-saude-caixa
+				+order(3)
+
+			&.icone-amil
+				+order(4)
+
+			&.icone-asfeb
+				+order(5)
+				margin-right: 30px
+
+			&.icone-camed
+				+order(6)
+
+			&.icone-cassi
+				+order(7)
+
+			&.icone-hapvida
+				+order(8)
+
+			&.icone-unimed
+				+order(9)
+				margin-right: 30px
+					
+			&.icone-assefaz
+				+order(12)
+					
+			&.icone-casseb-saude
+				+order(10)
+					
+			&.icone-postal-saude
+				+order(11)	
+					
+			&.icone-sul-america
+				+order(13)
+
+		h1
+			position: absolute
+			text-align: center
+			font-size: 30px
+			color: $blue
+			margin: auto 0
+			margin-top: -85px
+			margin-bottom: 30px
 
 section.sec-medias
 	+gradient(90deg, $blue, $red)
